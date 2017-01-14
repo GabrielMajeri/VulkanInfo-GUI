@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 #endif
 	
 [assembly: AssemblyProduct("Graphical User Interface for VulkanInfo")]
-[assembly: AssemblyCopyright("Copyright © 2016 - 2017")]
+[assembly: AssemblyCopyright("See LICENSE file")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
