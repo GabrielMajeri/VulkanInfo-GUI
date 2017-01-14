@@ -13,7 +13,7 @@ namespace VulkanInfo_GUI
 			InitializeComponent();
 		}
 
-		private void getInfoButton_Click(object sender, System.EventArgs e)
+		private void GetInfoButton_Click(object sender, System.EventArgs e)
 		{
 			// TODO: localize text
 			string fileNotFoundMessage = "Could not find VulkanInfo, make sure the Vulkan Runtime is installed.";
@@ -56,7 +56,7 @@ namespace VulkanInfo_GUI
 			saveToFileButton.Enabled = true;
 		}
 
-		private void saveToFileButton_Click(object sender, EventArgs e)
+		private void SaveToFileButton_Click(object sender, EventArgs e)
 		{
 			if(saveInfoDialog.ShowDialog() == DialogResult.OK)
 				File.WriteAllText(saveInfoDialog.FileName, infoTextBox.Text);

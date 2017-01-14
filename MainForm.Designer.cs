@@ -43,7 +43,7 @@
 			this.getInfoButton.TabIndex = 0;
 			this.getInfoButton.Text = "Run VulkanInfo";
 			this.getInfoButton.UseVisualStyleBackColor = true;
-			this.getInfoButton.Click += new System.EventHandler(this.getInfoButton_Click);
+			this.getInfoButton.Click += new System.EventHandler(this.GetInfoButton_Click);
 			// 
 			// infoTextBox
 			// 
@@ -63,7 +63,7 @@
 			this.saveToFileButton.TabIndex = 2;
 			this.saveToFileButton.Text = "Save as...";
 			this.saveToFileButton.UseVisualStyleBackColor = true;
-			this.saveToFileButton.Click += new System.EventHandler(this.saveToFileButton_Click);
+			this.saveToFileButton.Click += new System.EventHandler(this.SaveToFileButton_Click);
 			// 
 			// saveInfoDialog
 			// 
