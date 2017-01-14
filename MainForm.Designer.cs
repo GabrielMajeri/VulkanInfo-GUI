@@ -43,7 +43,7 @@
 			this.getInfoButton.TabIndex = 0;
 			this.getInfoButton.Text = "Run VulkanInfo";
 			this.getInfoButton.UseVisualStyleBackColor = true;
-			this.getInfoButton.Click += new System.EventHandler(this.GetInfoButton_Click);
+			this.getInfoButton.Click += new System.EventHandler(this.GetInfoButton_ClickAsync);
 			// 
 			// infoTextBox
 			// 
